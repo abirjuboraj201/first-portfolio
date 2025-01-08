@@ -5,7 +5,9 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+.dark-1{
+    color: #181818;
+}
 .dark-2{
     color: #474747;
 }
@@ -89,6 +91,7 @@ nav li a{
 .text-style{
     text-align: center;
 }
+
 /* main style */
 main{
     max-width: 1140px;
@@ -139,4 +142,38 @@ main{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section style */
+.resume{
+    margin-top: 130px;
+}
+.resume-container{
+    margin-top: 113px;
+}
+.title-font{
+    font-weight: bold;
+    font-size: 35px;
+}
+.resume-column h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.resume-container{
+    display: flex;
+    gap: 71px;
+}
+
+.download-button{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    margin-top: 113px;
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+.footer-column{
+    width: 50%;
 }
