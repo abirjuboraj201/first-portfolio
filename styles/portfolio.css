@@ -1,0 +1,142 @@
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+/* nav style */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 250px 0px 150px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+/* shared style  */
+.text-primary{
+    color: #FD6E0A;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    opacity: 100%;
+    padding: 18px 36px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+}
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+}
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px ;
+}
+.banner-content{
+    max-width: 585px;
+    max-height: 356px;
+}
+.banner-greet{
+    font-weight: 600px;
+    font-size: 45px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-description{
+    font-weight: 400px;
+    font-size: 18px;
+}
+.profile-pic{
+    max-width: 584px;
+    max-height: 676px;
+
+}
+.text-style{
+    text-align: center;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-height: 550px;
+}
+.info-description{
+    font-weight: 400px;
+    font-size: 18px;
+}
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.item-title{
+    color: #757575 ;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+/* section style */
+.section-title{
+    padding-top: 130px ;
+}
+.section-description{
+    padding: 30px 115px 50px 115px;
+}
+
+/* skill section style */
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    width: 267px;
+    
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
